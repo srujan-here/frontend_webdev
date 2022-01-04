@@ -1,0 +1,28 @@
+.main{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-gap: 10px;
+}
+.sub{
+    background-color: aqua;
+}
+.nav{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    height: 500px;
+}
+.header{
+    grid-column-start: 2;
+    grid-column-end: 6;
+   height: 50px;
+}
+.Article{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    height: 350px;
+}
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    height: 80px;
+}
